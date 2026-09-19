@@ -28,5 +28,4 @@ const url = "https://shiv.com/shiv%20shankar"
 console.log(url.replace('%20', '-')); //replace '%20' to '-'
 console.log(url.includes('shiv')); //if 'shiv' present --> true
 
-const gameNmeTwo = new String('BGMI-FreFire-CallOfDuty')
 console.log(gameNmeTwo.split('-')); //Split into array according to '-'
